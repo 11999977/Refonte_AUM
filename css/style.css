@@ -8440,7 +8440,8 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator {
       position: relative;
       margin-left: 20px;
-      padding-left: 20px; }
+      padding-left: 20px;
+     }
       @media (max-width: 991.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator {
           padding-left: 0;
@@ -10105,3 +10106,36 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    
+    .sub-menu{
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      top: 60px;
+      width: 200px;
+      border-bottom: solid 5px #d3d800;
+    }
+
+    .nav-item:hover .sub-menu {
+      display: block;
+    }
+
+    .sub-menu a {
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+      color: #004e9b;
+    }
+    .sub-menu li{
+      list-style-type: none;
+      display: block;  
+    } 
+    .sub-menu li :hover{
+      color: #004e9b;
+    }
+
+    #ftco-nav .sub-menu li a{
+      color: #004e9b;
+    }
