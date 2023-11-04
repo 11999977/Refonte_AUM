@@ -488,10 +488,11 @@ pre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin: auto; 
+}
 
 .no-gutters {
   margin-right: 0;
@@ -1009,11 +1010,11 @@ pre {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
-  .col-md-7 {
+  /* .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
-    max-width: 58.33333%; }
+    max-width: 58.33333%; } */
   .col-md-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
@@ -8702,14 +8703,16 @@ h1, h2, h3, h4, h5,
     font-size: 24px; }
 
 .login-wrap {
-  position: relative;
+  /* position: relative; */
   background: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
-  z-index: 0;
-  margin-top: -550px; }
+  /* z-index: 0; */
+  /* margin-top: -550px; } */
+}
+
   @media (max-width: 767.98px) {
     .login-wrap {
       margin-top: 3em; } }
@@ -9274,7 +9277,9 @@ textarea.form-control {
   padding-top: 0 !important; }
 
 .ftco-no-pb {
-  padding-bottom: 0 !important; }
+  /* padding-bottom: 0 !important; */
+  margin:  0 auto;
+ }
 
 .ftco-bg-dark {
   background: #3c312e; }
@@ -10114,7 +10119,7 @@ textarea.form-control {
       position: absolute;
       background-color: white;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-      top: 60px;
+      top: 90px;
       width: 200px;
       border-bottom: solid 5px #d3d800;
     }
@@ -10138,7 +10143,7 @@ textarea.form-control {
     }
 
     #ftco-nav .sub-menu li a{
-      color: #004e9b;
+      color: #004e9b;}
 
 
     /* CSS CREER PAR ARON */
@@ -10167,6 +10172,45 @@ textarea.form-control {
       justify-content: center; 
       margin-bottom: 20px; 
       font-weight: bold;
-      gap: 10px;
+      gap: 10px;}
 
+      .thank-you-block {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        width: 500px;
+        margin: 0 auto;
+        background-color: #d3d800;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .thank-you-block .icon {
+        font-size: 3em;
+        color: #fff; 
+       
+    }
+    
+    .thank-you-block h1 {
+        font-size: 30px;
+        color: white;
+    }
+    
+    .thank-you-block p {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .thank-you-block .btn {
+        display: inline-block;
+        background-color: #004e9b;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    
+    .thank-you-block .btn:hover {
+        background-color: #3ea07a;
     }
