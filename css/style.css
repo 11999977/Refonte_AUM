@@ -6958,7 +6958,7 @@ button.bg-dark:focus {
   padding: 3rem !important; }
 
 .pt-5,
-.py-5 {
+ {
   padding-top: 3rem !important; }
 
 .pr-5,
@@ -8413,6 +8413,8 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav {
         padding-bottom: 20px;
         margin-right: 0; } }
+/* Boutons de la navbar */
+
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
       font-size: 15px;
       padding-top: 1.5rem;
@@ -8617,18 +8619,22 @@ h1, h2, h3, h4, h5,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
+
+    /* Bar de navigation de la page campus */
+
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
-      opacity: .3;
-      background: #ce4be8;
-      background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      opacity: .7;
+      background: #004E9B;
+      object-fit: cover;
+      /* background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
       background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
       background: -webkit-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
       background: -o-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
       background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
       background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
       background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
-      background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+      background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%); */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px; }
@@ -9065,10 +9071,10 @@ textarea.form-control {
       .ftco-about .about-wrap {
         height: 400px; } }
   .ftco-about .img {
-    -webkit-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    /* -webkit-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
     box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
-    border: 15px solid #fff;
+    border: 15px solid #fff; */
     width: 70%;
     height: 80%;
     position: absolute;
@@ -9324,15 +9330,15 @@ textarea.form-control {
   font-size: 16px;
   padding: 7em 0;
   z-index: 0;
-  background: #ce4be8;
-  background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+  background: #004E9B;
+  /* background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
   background: -webkit-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
   background: -o-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
   background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
   background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
   background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
-  background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+  background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%); */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9376,7 +9382,7 @@ textarea.form-control {
     color: #fff;
     border-radius: 50%;
     position: relative;
-    background: #24d2c8; }
+    background: #d3d800; }
     .ftco-footer-social li a span {
       position: absolute;
       font-size: 18px;
@@ -9427,9 +9433,11 @@ textarea.form-control {
   text-transform: uppercase; }
 
 .heading-section h2 {
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 1.4; }
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.1; 
+  text-align: center;
+  color: #004E9B;}
   .heading-section h2 span {
     font-weight: 400; }
   @media (max-width: 767.98px) {
@@ -9613,16 +9621,16 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .8;
-    background: #000000;
-    background: #ce4be8;
-    background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+    background: #D3D800;
+    background: #004E9B;
+    /* background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
     background: -webkit-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
     background: -o-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
     background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
     background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
     background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
-    background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+    background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%); */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
 
 @media (max-width: 1199.98px) {
@@ -9640,12 +9648,12 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 700;
   font-size: 32px;
-  color: #fff; }
+  color: #d3d800; }
 
 .ftco-counter .text span {
   display: block;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 21px;
+  color: #d3d800;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600; }
@@ -9659,7 +9667,7 @@ textarea.form-control {
   -ms-border-radius: 50%;
   border-radius: 50%; }
   .ftco-counter .icon span {
-    color: #fff;
+    color: #d3d800;
     font-size: 48px; }
 
 @media (max-width: 767.98px) {
@@ -9728,7 +9736,7 @@ textarea.form-control {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: #24d2c8 !important; }
+    color: #d3d800 !important; }
 
 .block-27 ul {
   padding: 0;
@@ -10143,7 +10151,11 @@ textarea.form-control {
     }
 
     #ftco-nav .sub-menu li a{
-      color: #004e9b;}
+
+      color: #004e9b;
+    }
+
+
 
 
     /* CSS CREER PAR ARON */
@@ -10162,6 +10174,16 @@ textarea.form-control {
       }
     } */
 
+    .imgh::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+
+
+    }
+
     .moov{
       position: relative;
       right: 90px;
@@ -10170,9 +10192,133 @@ textarea.form-control {
     .gt{
       display: flex; 
       justify-content: center; 
-      margin-bottom: 20px; 
+      margin-bottom: 50px; 
       font-weight: bold;
-      gap: 10px;}
+
+      gap: 10px;
+
+    }
+
+    .chg{
+      margin-right: 8px;
+    }
+
+    .arti{
+      display: flex;
+      gap: 10px;
+      overflow: hidden;
+      width: 70%;
+      position: relative;
+      margin-bottom: 160px;
+    }
+
+    .art{
+      animation: slidar 10s ease-out infinite forwards;
+    }
+
+
+
+    @keyframes slidar {
+      0%{
+        transform: translateX(0px);
+      }
+      /* 35%{
+        transform: translateX(-600px);
+      }
+      65%{
+        transform: translateX(-900px);
+      }
+      85%{
+        transform: translateX(-1200px);
+      } */
+      100%{
+        transform: translateX(-410px);
+      }
+      
+    }
+
+    .art img{
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      /* animation: slidar 10s ease-out infinite forwards; */
+      transform: translateX(0);
+      object-fit: cover;
+    }
+
+    .art a{
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .art p{
+      background-color: #fff;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      text-align: center;
+
+    }
+
+    /* .sou{
+      width: 100px;
+      height: 50px;
+      background-color: pink;  
+      position: absolute;
+      bottom: 0; 
+      animation: slidar 10s ease-out infinite forwards;
+      z-index: -1;
+     } */
+
+      /* .sou2{
+        width: 100px;
+        height: 50px;
+        background-color: blue;  
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      
+      }  */
+
+      .number{
+        position: relative;
+        top: 35px;
+      }
+
+      .nump{
+        position: relative; 
+        bottom:10px; 
+        left:30px; 
+        color: #D3D800; 
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      .nump1{
+        position: relative; 
+        bottom:10px; 
+        left:80px; 
+        color: #D3D800; 
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      .nump2{
+        position: relative; 
+        bottom:10px; 
+        left:50px; 
+        color: #D3D800; 
+        font-weight: bolder;
+        font-size: 20px;
+      }
+
+      /* Page campus */
+
+      .hero-wrap.hero-wrap-2 .overlay::before{
+        content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      }
 
       .thank-you-block {
         background-color: #f2f2f2;
@@ -10214,3 +10360,4 @@ textarea.form-control {
     .thank-you-block .btn:hover {
         background-color: #3ea07a;
     }
+
