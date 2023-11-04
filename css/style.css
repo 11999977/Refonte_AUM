@@ -1211,10 +1211,10 @@ pre {
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
   .col-lg-9 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%; }
+    display: grid;
+  grid-template-columns: -webkit-box-flex 0 0 75%;
+  max-width: 75%;
+ }
   .col-lg-10 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 83.33333%;
@@ -6957,7 +6957,7 @@ button.bg-dark:focus {
 .p-5 {
   padding: 3rem !important; }
 
-.pt-5,
+.pt-5
  {
   padding-top: 3rem !important; }
 
@@ -8624,7 +8624,7 @@ h1, h2, h3, h4, h5,
 
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
-      opacity: .7;
+      opacity: .2;
       background: #004E9B;
       object-fit: cover;
       /* background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
@@ -10132,6 +10132,10 @@ textarea.form-control {
       border-bottom: solid 5px #d3d800;
     }
 
+    /* .sub-menu:hover{
+      display: initial;
+    } */
+
     .nav-item:hover .sub-menu {
       display: block;
     }
@@ -10319,14 +10323,14 @@ textarea.form-control {
       position: absolute;
       background: rgba(0, 0, 0, 0.4);
       }
-
+/*message d'encouragement*/
       .thank-you-block {
-        background-color: #f2f2f2;
+        border: 1px solid #d3d800 ;
         border-radius: 10px;
         padding: 20px;
         width: 500px;
         margin: 0 auto;
-        background-color: #d3d800;
+        background-color:white ;
         text-align: center;
         margin-top: 100px;
     }
@@ -10339,12 +10343,12 @@ textarea.form-control {
     
     .thank-you-block h1 {
         font-size: 30px;
-        color: white;
+        color: grey;
     }
     
     .thank-you-block p {
         font-size: 20px;
-        color: white;
+        color: grey;
     }
     
     .thank-you-block .btn {
@@ -10357,7 +10361,23 @@ textarea.form-control {
         margin: 0 auto;
     }
     
-    .thank-you-block .btn:hover {
+    /* .thank-you-block .btn:hover {
         background-color: #3ea07a;
-    }
+    } */
+   /*Mega menu*/ 
+    #mega:hover{
+      display: initial;
+     display: flex;
+     flex-direction: row;
+     width: 500px;
+    }  
+
+    .ftco-nav .nav-item:nth-child(3) :hover{
+      /* display: initial; */
+     display: flex;
+     flex-direction: row;
+     width: 500px;
+    } 
+
+
 
