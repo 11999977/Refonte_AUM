@@ -8624,8 +8624,10 @@ h1, h2, h3, h4, h5,
 
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
+
       opacity: .2;
       background: #004E9B;
+
       object-fit: cover;
       /* background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
       background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
@@ -8789,38 +8791,38 @@ h1, h2, h3, h4, h5,
 
 .btn {
   cursor: pointer;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09); }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #004E9B !important;
-    border: 1px solid #004E9B !important;
+    background: #004E9B;
+    border: none !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #4986fc;
-      background: transparent;
+      background: #d3d800;
       color: #4986fc; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #4986fc;
       background: transparent;
-      color: #4986fc; }
+      color: #fff; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #4986fc;
         color: #fff; }
   .btn.btn-secondary {
-    background: #e449ad !important;
-    border: 1px solid #e449ad !important;
+    background: #004E9B; /* !important; */
+     border: 1px solid #004E9B; /*!important; */
     color: #fff !important; }
     .btn.btn-secondary:hover {
-      border: 1px solid #e449ad;
-      background: transparent;
+      border: 1px solid #d3d800;
+      background: #d3d800;
       color: #e449ad; }
     .btn.btn-secondary.btn-outline-secondary {
       border: 1px solid #e449ad;
@@ -10164,11 +10166,17 @@ textarea.form-control {
 
     /* CSS CREER PAR ARON */
 
-    /* .msg{
+    .msg{
       opacity: 0;
-      display: inline-block;
       animation: open 1s 0.6s ease-out forwards;
       transform: translateY(30px);
+      text-align: center;
+    }
+/* SLOGANT */
+    .msg1{
+      font-size: 21px;
+      color: #fff;
+      text-align: center;
     }
 
     @keyframes open {
@@ -10176,7 +10184,7 @@ textarea.form-control {
         opacity: 1;
         transform: none;
       }
-    } */
+    }
 
     .imgh::before{
       content: '';
@@ -10186,6 +10194,43 @@ textarea.form-control {
       background: rgba(0, 0, 0, 0.4);
 
 
+    }
+
+    /* barre de recherche */
+
+    .scbar{
+      display: flex;
+      /* justify-content: center;
+      align-items: center; */
+      position: relative;
+      top: 55px;
+      left: 25px;
+    }
+
+    .inpbar{
+      width: 400px;
+      outline: none;
+      border: none;
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 18px;
+      position: relative;
+    }
+    .linkc{
+      color: white;
+      border-bottom-left-radius: none;
+    }
+
+    .linkc:hover{
+      color: white;
+    }
+
+    .bot:hover{
+      background-color: #d3d800;
+    }
+
+    #bot1{
+      border-bottom-left-radius: none;
     }
 
     .moov{
@@ -10220,6 +10265,39 @@ textarea.form-control {
       animation: slidar 10s ease-out infinite forwards;
     }
 
+    /* Section Des Partenaires */
+    .part1{
+      display: flex;
+      gap: 10px;
+      overflow: hidden;
+      width: 70%;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .part{
+      animation: lenght 10s infinite;
+    }
+
+    @keyframes lenght {
+      0%{
+        transform: translateX(0px);
+      }
+       35%{
+        transform: translateX(-150px);
+      }
+      65%{
+        transform: translateX(-300px);
+      }
+      /* 85%{
+        transform: translateX(-1200px);
+      } */
+      100%{
+        transform: translateX(-450px);
+      }
+      
+    }
+
 
 
     @keyframes slidar {
@@ -10244,7 +10322,6 @@ textarea.form-control {
     .art img{
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
-      /* animation: slidar 10s ease-out infinite forwards; */
       transform: translateX(0);
       object-fit: cover;
     }
